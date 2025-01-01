@@ -99,15 +99,15 @@
 }
 
 .about-intro {
-  background-image: url("https://dummyimage.com/1920x700/4d4d4d/636363");
+  background-image: url("../img/portfolio/about.jpg");
 }
 
 .works-intro {
-  background-image: url("https://dummyimage.com/1920x700/4d4d4d/636363");
+  background-image: url("../img/portfolio/project.jpg");
 }
 
 .contact-intro {
-  background-image: url("https://dummyimage.com/1920x700/4d4d4d/636363");
+  background-image: url("../img/portfolio/contact.jpg");
 }
 
 .inner-image-block-1 {
@@ -2714,6 +2714,7 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .menu__number {
@@ -3641,10 +3642,10 @@ form textarea:required:valid {
   .my-gallery__item:nth-of-type(4) {
     margin-bottom: 0;
   }
-  .no-touch .my-gallery__item:hover .works-link {
+  /* .no-touch .my-gallery__item:hover .works-link {
     -moz-border-radius: 50%;
          border-radius: 50%;
-  }
+  } */
   .no-touch .my-gallery__item:hover .works-link img {
     opacity: 0.2;
     -webkit-transform: scale(1.1);
