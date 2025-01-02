@@ -792,6 +792,18 @@ img {
   -o-transition: opacity 0.8s 0.3s;
   -moz-transition: opacity 0.8s 0.3s;
   transition: opacity 0.8s 0.3s;
+  display: flex; /* Place les éléments en ligne */
+  align-items: center; /* Aligne verticalement l'image et le texte */
+  gap: 10px; /* Ajoute un espacement entre l'image et le texte */
+}
+.logo {
+  height: 30px; /* Taille de l'image */
+}
+
+.logo-text {
+  font-size: 30px; /* Taille du texte */
+  font-weight: bold; /* Style gras pour le texte */
+  color: #ffff; /* Optionnel : couleur du texte */
 }
 @media only screen and (min-width: 768px) {
   #header.animate-in .header__underline {
@@ -831,10 +843,11 @@ img {
 }
 #header.header-scroll.light-bg .header__logo img {
   opacity: 0;
+  
 }
 #header.header-scroll.light-bg .header__logo::after {
   opacity: 1;
-  background-image: url("../img/logo-light.svg");
+  background-image: url("../img/portfolio/logo.png");
 }
 #header.header-scroll.light-fullscreen {
   background-color: rgba(0, 0, 0, 0.4);
