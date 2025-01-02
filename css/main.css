@@ -111,25 +111,25 @@
 }
 
 .inner-image-block-1 {
-  background-image: url("https://dummyimage.com/1200x800/4d4d4d/636363");
+  background-image: url("../img/portfolio/about3.jpg");
 }
 
 .inner-image-block-2 {
-  background-image: url("https://dummyimage.com/1200x800/4d4d4d/636363");
+  background-image: url("../img/portfolio/instagram-1732411626344.jpg");
 }
 
 .inner-video {
-  background-image: url("https://dummyimage.com/1920x700/4d4d4d/636363");
+  background-image: url("../img/portfolio/bg-v.jpg");
 }
 
 @media (orientation: landscape) {
   .inner-video {
-    background-image: url("https://dummyimage.com/1920x700/4d4d4d/636363");
+    background-image: url("../img/portfolio/bg-v.jpg");
   }
 }
 @media (orientation: portrait) {
   .inner-video {
-    background-image: url("https://dummyimage.com/1200x1200/4d4d4d/636363");
+    background-image: url("../img/portfolio/bg-v.jpg");
   }
 }
 /* ------------------------------------------------*/
@@ -801,7 +801,7 @@ img {
 }
 
 .logo-text {
-  font-size: 30px; /* Taille du texte */
+  font-size: 20px; /* Taille du texte */
   font-weight: bold; /* Style gras pour le texte */
   color: #ffff; /* Optionnel : couleur du texte */
 }
