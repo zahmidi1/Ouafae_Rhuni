@@ -2789,6 +2789,38 @@ form textarea:required:valid {
     padding-right: 330px;
   }
 }
+.menu_link {
+  display: block;
+  position: relative;
+  padding: 2.5rem 0 2.3rem 2.5rem;
+}
+.menu_link.active-link .menu__caption::before {
+  height: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .menu_link {
+    padding: 2rem 0 2.4rem 3.5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .menu_link.left {
+    padding-left: 270px;
+  }
+  .menu_link.right {
+    padding-right: 240px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .menu_link {
+    padding: 1.6rem 0 2rem 0;
+  }
+  .menu_link.left {
+    padding-left: 360px;
+  }
+  .menu_link.right {
+    padding-right: 330px;
+  }
+}
 
 .menu__image {
   display: none;
